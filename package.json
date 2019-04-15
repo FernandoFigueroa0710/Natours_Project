@@ -1,0 +1,19 @@
+{
+  "name": "natours_project",
+  "version": "1.0.0",
+  "description": "A landing page for natours ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS"
+  ],
+  "author": "Fernando Adan Figueroa Abarca",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
