@@ -149,7 +149,7 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: #ff7730;
+    background-color: #333;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }

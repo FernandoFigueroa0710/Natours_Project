@@ -9,8 +9,9 @@
   @include clearfix;
 
   [class^="col-"] {
-    background-color: $color-secondary-dark;
+    background-color: $color-grey-dark-3;
     float: left;
+
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
     }
