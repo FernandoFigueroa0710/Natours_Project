@@ -223,8 +223,6 @@ body {
   position: relative;
   height: 50rem; }
   .card_side {
-    color: #777;
-    font-size: 3rem;
     height: 50rem;
     transition: all 0.8s ease;
     position: absolute;
@@ -253,6 +251,26 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card_picture-1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+    .card_picture-2 {
+      background-image: url(../img/nat-5.jpg); }
+    .card_picture-3 {
+      background-image: url(../img/nat-5.jpg); }
+  .card_heading {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    width: 75%; }
+  .card_heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone; }
+    .card_heading-span-1 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
 
 .header {
   height: 95vh;
