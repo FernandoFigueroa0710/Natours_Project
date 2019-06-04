@@ -21,7 +21,7 @@
     }
     @include respond(phone) {
       top: 1.5rem;
-      right: 2.5rem;
+      right: 1.5rem;
     }
   }
 
@@ -89,7 +89,7 @@
         transparent 50%,
         $color-white 50%
       );
-      background-size: 225%;
+      background-size: 230%;
       transition: all 0.4s;
     }
     &:hover,
@@ -99,7 +99,7 @@
       transform: translateX(1rem);
     }
   }
-  // FUnctionality
+  // Functionality
   &__checkbox:checked ~ &__background {
     transform: scale(80);
   }
