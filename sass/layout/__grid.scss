@@ -25,7 +25,7 @@
     }
     &:not(:last-child) {
       margin-bottom:$gutter-horizontal;
-      @include respond(phone)
+      @include respond(phone);
       margin-bottom:$gutter-horizontal-small;
     }
   }
@@ -59,4 +59,4 @@
       3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal}
     );
   }
-}
+
